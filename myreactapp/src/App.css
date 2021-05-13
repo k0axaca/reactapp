@@ -1,0 +1,148 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-size: 16px;
+  background-image: url(./images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(0, 100%, 74%) ;
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.main-content {
+  flex: 100%;
+}
+#content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+form {
+  background: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+input {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 1.2em;
+  outline-color: hsl(246, 25%, 77%);
+  font-weight: bold;
+  
+}
+#trial {
+  background: hsl(154, 59%, 51%);
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.try-it {
+  background: hsl(248, 32%, 49%);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.2em;
+
+}
+h2 {
+  color: white;
+  font-size: 3.0em;
+  font-weight: 700;
+}
+#para {
+  font-size: 1.0em;
+  margin-top: -20px;
+}
+.little {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+small {
+  display: inline;
+  text-align: center;
+}
+#free {
+  font-weight: bold;
+}
+#terms {
+  color: hsl(0, 100%, 74%) ;
+}
+/* Extra small devices (phones,600px and down) */
+@media only screen and (max-width: 767px) {
+  main {
+      flex-direction: column;
+  }
+  .main-content {
+      text-align: center;
+  }
+  h2 {
+      font-size: 2.6em;
+  }
+  input {
+      font-size: 0.9em;
+  }
+  #trial {
+      font-size: 0.9em;
+  }
+  #terms {
+      display:inline;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
